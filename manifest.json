@@ -1,0 +1,21 @@
+{
+    "name": "Bm Chrome",
+    "description": "Chrome Version of Bm Fox",
+    "version": "0.1",
+    "minimum_chrome_version": "16.0.884",
+    "permissions": [
+        "experimental",
+        "tabs",
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "icon.jpg",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.jpg",
+        "48": "icon.jpg",
+        "128": "icon.jpg"
+    },
+    "manifest_version": 2
+}
